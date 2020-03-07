@@ -1,0 +1,119 @@
+QPushButton {
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #7289da;
+    color: #fff;
+    font-family: 'Whitney Book', sans-serif;
+    font-weight: 500;
+    height: 32px;
+    line-height: 16;
+    min-height: 32px;
+    padding: 2px 16px;
+}
+
+QPushButton::hover {
+    background-color: #6B7CC6
+}
+
+QPushButton:pressed {
+    background-color: #5E6FB0;
+}
+
+QPushButton[dangerous="true"] {
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid;
+    color: #f04747;
+    font-family: 'Whitney Book', sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    height: 32px;
+    line-height: 16;
+    min-height: 32px;
+    border-top-color: rgba(240, 71, 71, .3);
+    border-right-color: rgba(240, 71, 71, .3);
+    border-left-color: rgba(240, 71, 71, .3);
+    border-bottom-color: rgba(240, 71, 71, .3);
+    padding: 2px 16px;
+    border-width: 1px
+}
+
+QPushButton::hover[dangerous="true"] {
+    border-color: rgba(240, 71, 71, .7)
+}
+
+QPushButton:pressed[dangerous="true"] {
+    border-color: rgba(240, 71, 71, 1);
+    background-color: rgba(255, 70, 70, .1);
+}
+
+QPushButton:focus {
+	outline: none;
+}
+
+QLineEdit {
+    background-color: rgba(114, 118, 125, .3);
+    color: #dcddde;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px 2px 2px 0;
+    max-height: 144px;
+    width: 100%;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 32px;
+    line-height: 16;
+    min-height: 32px;
+    min-width: 60px;
+    padding: 2px 16px
+}
+
+QLineEdit::disabled {
+    color: #545454;
+    background-color: rgba(32, 34, 37, .6)
+}
+
+QSpinBox {
+    background-color: rgba(114, 118, 125, .3);
+    color: #dcddde;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px 2px 2px 0;
+    max-height: 144px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 32px;
+    line-height: 16;
+    min-height: 32px;
+    min-width: 60px;
+    padding: 2px 16px
+}
+
+QSpinBox::disabled {
+    color: #545454;
+    background-color: rgba(32, 34, 37, .6)
+}
+
+QLineEdit#inputBox {
+    background-color: rgba(114, 118, 125, .3);
+    color: #dcddde;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin: 2px 2px 2px 0;
+    max-height: 144px;
+    min-height: 20px;
+    padding: 10px 38px 10px 10px;
+    width: 100%;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+
+QLineEdit::disabled#inputBox {
+    color: #545454;
+    background-color: rgba(32, 34, 37, .6)
+}

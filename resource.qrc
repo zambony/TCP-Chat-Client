@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file alias="biscord">biscord.png</file>
+    <file alias="disconnect">icons8-disconnected-32.png</file>
+    <file alias="server">icons8-server-32.png</file>
+    <file alias="checkmark">icons8-checkmark-48.png</file>
+  </qresource>
+  <qresource prefix="fonts">
+    <file alias="text-med">resources/whitney-medium.ttf</file>
+    <file alias="text-regular">resources/whitney-book.ttf</file>
+    <file alias="text-bold">resources/whitney-bold.ttf</file>
+  </qresource>
+</RCC>
